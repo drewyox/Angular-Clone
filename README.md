@@ -1,27 +1,32 @@
-# EtsyClone
+# Super Galactic Age Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### This website is a recreation of the Etsy homepage, created for an exercise of understanding the Angular superset. 
 
-## Development server
+#### By **Drew Yoxsimer**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+This is the beginning of a clone of the Etsy crafting site. Right now it consists of mostly just html and css to mark out and map the site. However, these css and html files are divided into separate components. Each component houses a small amount of html and css and is passed back up the chain to the root component.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Planned Features
 
-## Build
+# _Shopping and Latest Components_
+  * Both of these components feature bits of css and html that are essentially repeated spare the content within them. I hope to write a ts class to duplicate them with less code.  
+# _Missing Components_
+  * I am going to add the remaining components that map out the homepage in its entirety before the next Friday project period in hopes that I can add more actual funtionality and interactivity to the site itself.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Known Bugs
+* No known bugs at this time.
 
-## Running end-to-end tests
+## Technologies Used
+  _HTML_
+  _CSS_
+  _Node_
+  _Jasmine_
+  _Karma_
+  _Type Script_
+  _Angular 6_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2019 **_{Drew Yoxsimer}_**
