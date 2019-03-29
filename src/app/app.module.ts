@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { ToolBarComponent } from './tool-bar/tool-bar.component';
 import { BodyComponent } from './body/body.component';
 import { PictureSecComponent } from './body/picture-sec/picture-sec.component';
+import { PopularComponent } from './body/popular/popular.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PictureSecComponent } from './body/picture-sec/picture-sec.component';
     HeaderComponent,
     ToolBarComponent,
     BodyComponent,
-    PictureSecComponent
+    PictureSecComponent,
+    PopularComponent
   ],
   imports: [
     BrowserModule

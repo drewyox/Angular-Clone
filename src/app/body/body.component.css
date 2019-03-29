@@ -9,4 +9,15 @@ app-picture-sec {
   display: flex;
   flex-direction: row;
   height: 25vh;
+  justify-content: space-around;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p {
+  width: 20%;
+
 }
