@@ -1,0 +1,17 @@
+#container {
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+}
+
+.whatText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#headWhat {
+  text-align: center;
+}
