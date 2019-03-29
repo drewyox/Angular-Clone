@@ -1,3 +1,8 @@
+* {
+  border: 1px, solid, red;
+}
+
+
 .row {
   display: flex;
   flex-direction: row;
@@ -15,13 +20,14 @@
 
 .row p {
   font-size: 12px;
+  padding: 1vw;
 }
 
 #leftHeader {
   display: flex;
   flex-direction: row;
   width: 40%;
-  justify-content:space-around;
+  justify-content:flex-end;
   margin-right: 0px;
 
 }
