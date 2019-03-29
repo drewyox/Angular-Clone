@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+#search input {
+  width: 15vw;
+}
+
+.row h1 {
+  font-size: 2em;
+  padding-right: 3vw;
+}
+
+.row p {
+  font-size: 12px;
+}
+
+#leftHeader {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content:space-around;
+  margin-right: 0px;
+
+}
