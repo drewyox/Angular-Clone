@@ -4,3 +4,9 @@ h1 {
   text-align: center;
   margin: auto;
 }
+
+app-picture-sec {
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+}
