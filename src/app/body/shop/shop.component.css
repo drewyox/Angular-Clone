@@ -8,6 +8,7 @@
 
 .conetentShop p {
   font-size: 12px;
+  background-color: blue;
 }
 
 .conetentShop {
@@ -21,7 +22,6 @@
 
 .imgStandinShop {
   width: 100%;
-  height: 7vh;
+  height: 70%;
   background-color: red;
-  height: 100%;
 }

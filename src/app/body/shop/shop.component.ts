@@ -8,14 +8,14 @@ import { Shopping } from '../../shopping.model';
 })
 export class ShopComponent implements OnInit {
   shopContents: Shopping[] = [
-    new Shopping ("https://picsum.photos/200/300/?random?", "Fearlessly Female"),
-    new Shopping ("https://picsum.photos/200/300/?random", "DIY craft projects"),
-    new Shopping ("https://picsum.photos/200/300/?random?", "Jewelry gifts under $30"),
-    new Shopping ("https://picsum.photos/200/300/?random?", "Vintage clothing"),
-    new Shopping ("https://picsum.photos/200/300/?random?", "Etsy weddings"),
-    new Shopping ("https://picsum.photos/200/300/?random?", "One of a kind gift ideas"),
-    new Shopping ("https://picsum.photos/200/300/?random?", "EDITOR'S PICKS")
-  ],
+    new Shopping ("https://via.placeholder.com/150.jpg", "Fearlessly Female"),
+    new Shopping ("https://via.placeholder.com/150.jpg", "DIY craft projects"),
+    new Shopping ("https://via.placeholder.com/150.jpg", "Jewelry gifts under $30"),
+    new Shopping ("https://via.placeholder.com/150.jpg", "Vintage clothing"),
+    new Shopping ("https://via.placeholder.com/150.jpg", "Etsy weddings"),
+    new Shopping ("https://via.placeholder.com/150.jpg", "One of a kind gift ideas"),
+    new Shopping ("https://via.placeholder.com/150.jpg", "EDITOR'S PICKS")
+  ];
 
   constructor() { }
 
