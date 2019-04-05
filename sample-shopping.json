@@ -1,0 +1,29 @@
+{"shopping": [{
+  "image": "This is Totally an Image.",
+  "descriptor": "Fearlessly Female"
+  },
+  {
+    "image": "This is definitely an Image too.",
+    "descriptor": "DIY craft projects."
+  },
+  {
+    "image": "This too, is an image.",
+    "descriptor": "Jewelry gifts under $30"
+  },
+  {
+    "image": "Alas, another functioning image",
+    "descriptor": "Vintage clothing"
+  },
+  {
+    "image": "Whats this? An image?",
+    "descriptor": "Etsy weddings"
+  },
+  {
+    "image": "Another zinger of an image.",
+    "descriptor": "One of a kind gift ideas",
+  },
+  {
+    "image": "Theres no image in this one.",
+    "descriptor": "EDITOR'S PICKS"
+  }]
+}

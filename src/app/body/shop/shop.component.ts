@@ -8,13 +8,13 @@ import { Shopping } from '../../shopping.model';
 })
 export class ShopComponent implements OnInit {
   shopContents: Shopping[] = [
-    new Shopping ("https://via.placeholder.com/150.jpg", "Fearlessly Female"),
-    new Shopping ("https://via.placeholder.com/150.jpg", "DIY craft projects"),
-    new Shopping ("https://via.placeholder.com/150.jpg", "Jewelry gifts under $30"),
-    new Shopping ("https://via.placeholder.com/150.jpg", "Vintage clothing"),
-    new Shopping ("https://via.placeholder.com/150.jpg", "Etsy weddings"),
-    new Shopping ("https://via.placeholder.com/150.jpg", "One of a kind gift ideas"),
-    new Shopping ("https://via.placeholder.com/150.jpg", "EDITOR'S PICKS")
+    new Shopping ("This is Totally an Image", "Fearlessly Female"),
+    new Shopping ("This is Totally an Image", "DIY craft projects"),
+    new Shopping ("This is Totally an Image", "Jewelry gifts under $30"),
+    new Shopping ("This is Totally an Image", "Vintage clothing"),
+    new Shopping ("This is Totally an Image", "Etsy weddings"),
+    new Shopping ("This is Totally an Image", "One of a kind gift ideas"),
+    new Shopping ("This is Totally an Image", "EDITOR'S PICKS")
   ];
 
   constructor() { }
