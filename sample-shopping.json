@@ -1,4 +1,4 @@
-{"shopping": [{
+{ "shopping": [{
   "image": "This is Totally an Image.",
   "descriptor": "Fearlessly Female"
   },
@@ -20,7 +20,7 @@
   },
   {
     "image": "Another zinger of an image.",
-    "descriptor": "One of a kind gift ideas",
+    "descriptor": "One of a kind gift ideas"
   },
   {
     "image": "Theres no image in this one.",
