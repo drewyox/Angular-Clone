@@ -1,13 +1,14 @@
 <div class="containShop">
 
-  <div class="conetentShop">
-    <div class="imgStandinShop"></div>
-    <div>
-      <p>Fearlessly Female</p>
+  <div class="conetentShop" *ngFor="let shopping of shopContents">
+    <div class="imgStandinShop">
+      {{shopping.image}}
     </div>
+    <p>{{shopping.descriptor}}</p>
+
   </div>
 
-  <div class="conetentShop">
+  <!-- <div class="conetentShop">
     <div class="imgStandinShop"></div>
     <div>
       <p>DIY craft projects</p>
@@ -47,7 +48,7 @@
     <div>
       <p>EDITOR'S PICKS</p>
     </div>
-  </div>
+  </div> -->
 
 
 </div>
