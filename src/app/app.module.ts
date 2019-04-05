@@ -18,6 +18,11 @@ import { ReviewComponent } from './body/review/review.component';
 import { BlogComponent } from './body/blog/blog.component';
 import { FooterComponent } from './footer/footer.component';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
 
 @NgModule({
   declarations: [
