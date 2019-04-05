@@ -1,6 +1,6 @@
 <div class="containShop">
 
-  <div class="conetentShop" *ngFor="let shopping of shopContents">
+  <div class="conetentShop" *ngFor="let shopping of shopContents | async">
     <div class="imgStandinShop">
       {{shopping.image}}
     </div>

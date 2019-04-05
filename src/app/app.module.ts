@@ -23,6 +23,7 @@ export const firebaseConfig = {
   authDomain: masterFirebaseConfig.authDomain,
   databaseURL: masterFirebaseConfig.databaseURL,
   storageBucket: masterFirebaseConfig.storageBucket
+}
 
 @NgModule({
   declarations: [
@@ -40,7 +41,9 @@ export const firebaseConfig = {
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
